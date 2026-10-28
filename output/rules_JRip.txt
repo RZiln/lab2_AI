@@ -1,0 +1,5 @@
+IF debt_ratio > 0.5155 AND has_collateral = no THEN decision = rejected   [covers 117, errors 8]
+IF employment_years <= 1.75 AND income <= 2555 AND loan_amount > 21150 THEN decision = rejected   [covers 42, errors 1]
+IF credit_score <= 544.5 THEN decision = rejected   [covers 72, errors 3]
+IF employment_years <= 2.55 AND income <= 3245 AND loan_amount > 32800 THEN decision = rejected   [covers 24, errors 10]
+ELSE decision = approved   [covers 445, errors 39]

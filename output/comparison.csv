@@ -1,0 +1,5 @@
+method,train accuracy,test accuracy,10-fold CV accuracy,number of rules,avg rule length
+JRip,0.913,0.87,0.908,5,1.8
+ID3,0.997,0.733,0.731,309,4.64
+CN2,0.967,0.823,0.828,48,2.29
+PART,0.926,0.83,0.88,26,2.5
